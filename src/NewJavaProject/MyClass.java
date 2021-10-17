@@ -6,8 +6,11 @@ public class MyClass {
       //  this is my edition to the group file
       int num = 0;
         for (int i = 0; i < 100 ; i++) {
-             num = i;
-            System.out.print(num+" ");
+            if(i%2==0){
+                System.out.println("Even");
+            }else{
+                System.out.println("Odd");
+            }
         }
 
 
