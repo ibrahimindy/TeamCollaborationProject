@@ -12,6 +12,10 @@ public class MyClass {
                 System.out.println("Odd");
             }
         }
+        System.out.println();
+        String name = "ibrahim";
+       String name2 = name.substring(4);
+        System.out.println(name2);
 
 
     }
