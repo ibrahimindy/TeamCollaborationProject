@@ -9,6 +9,10 @@ public class MyClass {
              num = i;
             System.out.print(num+" ");
         }
+        System.out.println();
+        String name = "ibrahim";
+       String name2 = name.substring(4);
+        System.out.println(name2);
 
 
     }
